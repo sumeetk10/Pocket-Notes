@@ -162,7 +162,6 @@ const clearMain = () => {
 // showing notes in 1st page
 const showNotes = () => {
     console.log(NotesData.length);
-    console.log("hello");
     let buttonFragment = document.createDocumentFragment();
     let deleteAll = createElement("button", "delete", { "textContent": "DELETE ALL" });
     let newbutton = createElement("button", "new", { "textContent": "NEW" });
